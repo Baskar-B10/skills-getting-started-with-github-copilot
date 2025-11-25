@@ -89,10 +89,23 @@ section h3 {
   padding-left: 10px;
 }
 
+
 .participants-list {
-  list-style-type: disc;
-  margin: 8px 0 0 20px;
+  list-style-type: none;
+  margin: 8px 0 0 0;
   padding: 0;
+}
+
+.delete-participant {
+  color: #c62828;
+  cursor: pointer;
+  margin-left: 10px;
+  font-size: 16px;
+  vertical-align: middle;
+  transition: color 0.2s;
+}
+.delete-participant:hover {
+  color: #a31515;
 }
 
 .participant-avatar {
